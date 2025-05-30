@@ -27,7 +27,10 @@ cd react-weather-dashboard
 
 npm install
 
-VITE_WEATHER_API_KEY=your-weatherapi-key
+Create a .env file in the root directory and add the following:
+
+VITE_WEATHER_API_KEY=c01f441f05f94a88b4685847253005
+VITE_WEATHER_API_URL=https://api.weatherapi.com/v1/forecast.json
 
 npm run dev
 
